@@ -1,0 +1,10 @@
+1) With "is" predicate:
+?- fact(4,X).
+X = 24
+
+2) With "=" predicate:
+?- fact(4,X).
+X = 4*(3*(2*(1*1)))
+
+The difference between "is" and "=" in Prolog:
+"is" predicate does the computation of the expression going after it, whereas "=" just "unifies" the expression and does not do the computation.
